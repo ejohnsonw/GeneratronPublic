@@ -8,6 +8,8 @@
 ${h} Application Name: ${application.name} ${h}
 Description:
 ${application.description}
+Source:
+${application.source}
 ${h}${h} Entities ${h}${h}
 #foreach($entity in $entities)
 ${h}${h}${h} ${entity.name} ${h}${h}${h}
