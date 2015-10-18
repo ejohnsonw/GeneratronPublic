@@ -1,6 +1,7 @@
 #set ($author="Your name here")
 #set ($overwrite="true")
 #set ($enabled="true")
+#set ($header="false")
 #set ($filep="MODEL.md")
 #set ($filename="${outputDir}/documentation/${filep}")
 #parse("common/utils.parse")
@@ -9,7 +10,7 @@ Description:
 ${project.description}
 ${h}${h} Entities ${h}${h}
 #foreach($entity in $entities)
-${h}${h}${h}${h} ${entity.name} ${h}${h}${h}
+${h}${h}${h} ${entity.name} ${h}${h}${h}
  #foreach($attribute in $entity.attributes)
     Name: ${attribute.name} 
        Type: ${attribute.type} 
