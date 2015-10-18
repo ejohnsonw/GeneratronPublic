@@ -1,4 +1,4 @@
-#set ($author="Your name here)
+#set ($author="Your name here")
 #set ($overwrite="true")
 #set ($enabled="true")
 #set ($filep="MODEL.md")
