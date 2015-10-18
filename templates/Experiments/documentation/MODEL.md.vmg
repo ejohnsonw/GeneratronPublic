@@ -5,9 +5,9 @@
 #set ($filep="MODEL.md")
 #set ($filename="${outputDir}/documentation/${filep}")
 #parse("common/utils.parse")
-${h} Project Name: ${project.name} ${h}
+${h} Application Name: ${application.name} ${h}
 Description:
-${project.description}
+${application.description}
 ${h}${h} Entities ${h}${h}
 #foreach($entity in $entities)
 ${h}${h}${h} ${entity.name} ${h}${h}${h}
