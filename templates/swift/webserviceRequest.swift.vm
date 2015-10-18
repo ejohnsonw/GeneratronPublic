@@ -1,5 +1,5 @@
 #set ($language="Swift")
-#set ($description="A class to create webservice requests for ${entity.name s}")
+#set ($description="A class to create webservice requests for ${entity.name}")
 #set ($author="Evol Johnson")
 #set ($overwrite="true")
 #set ($filename="${outputDir}/${project.name}/${entity.name}Client.swift")
